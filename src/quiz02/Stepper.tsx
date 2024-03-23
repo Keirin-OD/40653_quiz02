@@ -1,6 +1,4 @@
-const Stepper = () => {
-
-  const step = 1;
+const Stepper = ({step}) => {
 
   return (
     <div className='stepper flex'>

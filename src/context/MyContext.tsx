@@ -8,10 +8,14 @@ type Product = {
 }
 
 type MyContextData = {
-    
+    products: Product[];
+    step: number;
 }
 
 const MyContext = React.createContext<MyContextData>({
+    products: [],
+    step:0
+
 
 });
 
